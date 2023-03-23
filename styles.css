@@ -1,0 +1,12 @@
+body { 
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-color: black solid;
+   }
+
+.button {
+    background-color: red;
+   
+}
+

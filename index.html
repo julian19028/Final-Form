@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Form</title>
+</head>
+
+<body class="body">
+    <div class="container" style="border: 1px solid gainsboro; border-radius: 4px;">
+        <div class="p-3 md-4 bg-body-tertiary" style=" border: 2px solid gainsboro; border-radius: 4px; width: 1127px;">
+            <h2><strong>Payment for example</strong></h2>
+        </div>
+            <div>
+            <div class="p-3 mb-3 bg-danger-subtle text-emphasis-danger" style="width: 1127px;"><h5>Some fields are missing</h5></div>
+            <div style="display: flex;">
+                 <fieldset style="width: 35%;">
+                    <label for="formGroupExampleInput" class="form-label">Card #</label>
+                    <input type="number" class="form-control" id="formGroupExampleInput" placeholder="xxxxxxxxxxxxxxxx">
+                 </fieldset>
+                 <fieldset style="padding-left: 20px; width: 30%;">
+                    <label for="formGroupExampleInput" class="form-label">CVC #</label>
+                    <input type="number" class="form-control" id="formGroupExampleInput" placeholder="xxxx">
+                 </fieldset>
+                 <fieldset style="padding-left: 20px; width: 30%;">
+                    <label for="formGroupExampleInput" class="form-label">Amount</label>
+                    <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Amount">
+                 </fieldset>
+            </div>
+            <div style="display: flex; gap: 30%;" class="Cajapadre">
+              <div>
+                <fieldset style="width: 250%;">
+                    <label for="formGroupExampleInput" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                 </fieldset>
+                 <fieldset style="width: 250%;">
+                    <label for="formGroupExampleInput" class="form-label">City</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                 </fieldset>
+                 <fieldset style="padding-top: 20px;">
+                    <label for="formGroupExampleInput" class="form-label">We Accept:</label>
+                    <br></br>
+                    <div style="background-color: dimgray; padding-top: 10px; padding-bottom: 10px; border-radius: 3px;">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard"></i></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-amex"></i></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-diners-club"></i></label>
+                  </div>
+                 </fieldset>
+                </div>
+                <div>
+                 <fieldset style="width: 150%;">
+                    <label for="formGroupExampleInput" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                 </fieldset>
+                  <div style="display: flex; gap: 20px; width: 150%;">
+                    <fieldset style="width: 100%;">
+                     <label for="inputState" class="form-label">State</label>
+                     <select id="inputState" class="form-select">
+                       <option selected>Choose...</option>
+                       <option>...</option>
+                     </select>
+                     </fieldset> 
+                     <fieldset style="width: 120%;">
+                        <label for="formGroupExampleInput" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                     </fieldset>
+                    </div>
+                    <fieldset style="width: 150%; padding-top: 20px;">
+                     <label for="floatingTextarea2">Message</label>
+                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                     <legend style="font-size: small; color: darkgray;">Add any note here.</legend>
+                     </fieldset>
+                 </div>
+            </div>
+         </div>
+         <div style="display: flex; justify-content: end; margin-bottom: 10px; padding-top: 20px; border: 1px solid gainsboro; border-radius: 4px;" class="p-1 md-4 bg-body-tertiary;">
+            <button type="button" class="btn btn-secondary">Cancel</button>
+            <button type="button" class="btn btn-primary" style="margin-left: 5px;">Send</button>
+           </div>
+        </div>
+       </div>
+</body>
+</html>
